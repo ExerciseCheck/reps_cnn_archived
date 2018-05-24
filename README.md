@@ -2,6 +2,8 @@
 
 ## Requirements
 Python 2.7.7+  
+
+##### Python modules  
 theano 0.8.1  
 h5py  
 tornado  
