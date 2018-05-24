@@ -4,10 +4,10 @@
 Python 2.7.7+  
 
 ##### Python modules  
-theano 0.8.1  
-h5py  
-tornado  
-nose
+* theano 0.8.1  
+* h5py  
+* tornado  
+* nose
 
 #### Troubleshooting
 * When installing theano, tornado, nose if you come across the error that a package is already installed use the `--ignore-installed` flag e.g. `pip install --ignore-installed theano`.
@@ -26,7 +26,7 @@ Please find the data [at this link](https://drive.google.com/drive/folders/1rIpN
 
 
 ## Original Implementation Citation
-Theano implementation by the authors of the original work can be found [here](https://github.com/tomrunia/DeepRepICCV2015)
+Theano implementation by the authors of the original work can be found [here](https://github.com/tomrunia/DeepRepICCV2015).
 
 ```
 @inproceedings{levy2015live,
