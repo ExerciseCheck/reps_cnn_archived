@@ -75,7 +75,7 @@ def train_rep(learning_rate=0.002, L1_reg=0.0002, L2_reg=0.005, n_epochs=200,
     train_dir = '../out/h5/'
     valid_dir = '../out/h5/'
     
-    weights_dir = './weights/'
+    weights_dir = '../weights/'
 
     print '... load input data'
     filename = train_dir+'rep_train_data_1.h5'
