@@ -2,7 +2,14 @@
 
 ## Requirements
 Python 2.7.7+  
-`pip install h5py tornado nose theano`
+theano 0.8.1
+h5py
+tornado
+nose
+
+#### Troubleshooting
+* When installing theano, tornado, nose if you come across the error that a package is already installed use the `--ignore-installed` flag e.g. `pip install --ignore-installed theano`.
+* To install the specific version of theano, please run `pip install theano==0.8.1`.
 
 ## To run
 * Train model by running `python2.7 rep_train_main.py` in the `trainNet` directory. Please create empty directory `weights` in root directory of the repository before starting.
