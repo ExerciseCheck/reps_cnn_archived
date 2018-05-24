@@ -2,9 +2,9 @@
 
 ## Requirements
 Python 2.7.7+  
-theano 0.8.1
-h5py
-tornado
+theano 0.8.1  
+h5py  
+tornado  
 nose
 
 #### Troubleshooting
