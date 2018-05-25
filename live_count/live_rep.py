@@ -95,8 +95,8 @@ class RepDetector:
 	       
 	    
 	    ll = si.shape[0]
-	    th1 = round(ll*0.02)
-	    th2 = numpy.floor(ll*0.98)
+	    th1 = int(round(ll*0.02))
+	    th2 = int(numpy.floor(ll*0.98))
 	    y1 = si[th1]
 	    y2 = si[th2]
 	    x1 = sj[th1]
@@ -388,7 +388,8 @@ if __name__ == '__main__':
     frame_rate = 30
     frame_interval_ms = 1000/frame_rate
     
-    fourcc = cv2.cv.CV_FOURCC(*'XVID')    
+    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    #fourcc = cv2.cv.CV_FOURCC(*'XVID')    
     video_writer = cv2.VideoWriter("../out/live_out.avi", fourcc, frame_rate, (640, 480))
 
     frame_counter = 0
